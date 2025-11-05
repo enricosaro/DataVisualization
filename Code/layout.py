@@ -101,7 +101,7 @@ def make_map_block():
                 dbc.Row(
                     [
                         dbc.Col(
-                            html.Small("Use box/lasso to select points. Click 'Clear map selection' to reset."),
+                            html.Small("Use box/lasso to select points. Click 'Clear map selection' or double-click in the map to reset."),
                             width="auto"
                         ),
                         dbc.Col(
