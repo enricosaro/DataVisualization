@@ -8,7 +8,6 @@ Then open:
 """
 
 import dash
-import dash_bootstrap_components as dbc
 from layout import get_app_layout
 from callbacks import register_callbacks
 
@@ -17,8 +16,6 @@ from callbacks import register_callbacks
 app = dash.Dash(
     __name__,
     title="Inside Airbnb Gent",
-    # Not strictly needed on a single-page app, but harmless if left True.
-    suppress_callback_exceptions=False,
 )
 
 # Page layout and callbacks
